@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 1.5em
+}
+@media only screen and (min-width: 768px) {
+.btn-outline  {
+	background-image: none;
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+    
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+.btn-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    /* padding: 0.75rem 2.1875rem;
+    font-size: 0.75rem;
+    line-height: 1.5;*/
+    border-radius: 3px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.btn-white {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+    color: #535353;
+}
+.btn-white.btn-outline {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white.btn-outline:hover {
+    background-color: #fff;
+    color: #000000;
+}
+}
+
+@media only screen and (max-width: 768px) {
+/*	
+.btn-outline  {
+	background-image: inherit;
+    background-color: inherit;
+    color: inherit;
+    
+	}
+	.btn-primary.btn-outline {
+    color: white;
+	}
+*/
+	
+}
+
+.close-icon{
+    width: 100%;
+    text-align: right;	
+    font-family: serif;
+    font-size: 3em;
+    background-color: transparent;
+    border: none;
+}
